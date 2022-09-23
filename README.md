@@ -1,1 +1,1 @@
-# odin-landing-page
+The purpose of this page is to test my flexbox knowledge.
