@@ -202,3 +202,12 @@ a {
     flex-direction: column;
   }
 }
+
+/* Footer */
+footer .container {
+  background-color: #68cbb5;
+  color: #1d4b57;
+
+  display: flex;
+  justify-content: center;
+}
