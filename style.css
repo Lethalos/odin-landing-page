@@ -164,3 +164,41 @@ a {
   align-self: flex-end;
   font-weight: bold;
 }
+
+/* Action */
+.action .container {
+  padding: 5rem 8rem;
+  background-color: #fff;
+}
+
+.action .action-card {
+  padding: 2rem 4rem;
+  background-color: #1d4b57;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.action .action-btn {
+  flex-shrink: 0;
+  padding: 0.5rem 1rem;
+  background-color: #68cbb5;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+
+.action .action-btn:hover {
+  background-color: #fff;
+  color: #68cbb5;
+  border: 2px solid #68cbb5;
+}
+
+@media (max-width: 768px) {
+  .action .action-card {
+    flex-direction: column;
+  }
+}
