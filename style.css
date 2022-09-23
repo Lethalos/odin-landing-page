@@ -146,5 +146,21 @@ a {
 
 /* Quote */
 .quote .container {
+  padding: 5rem 8rem;
   background-color: #1d4b57;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.quote .quote-text {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.quote .author {
+  align-self: flex-end;
+  font-weight: bold;
 }
